@@ -2,4 +2,56 @@
     margin: 0px;
     padding: 0px;
 }
+.center-box {
+    display: flex;
+    margin: auto;
+    width: 700px;
+    height: 120px;
+    background-color: rgb(9, 9, 116);
+    align-items: center;
+    justify-content: center;
+}
+
+.center-item {
+    background-color: tan;
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    background-color: rgb(129, 165, 231);
+    display: flex;
+    margin: 20px auto;
+    width: 700px;
+    height: 60px;
+    font-family: "Montserrat";
+    font-size: 10px;
+    color: white;
+    align-items: center;
+    justify-content: left;
+}
+
+#dojo {
+    width: 50px;
+}
+
+.navbar h1 {
+    font-size: 16px;
+    margin: 20px;
+}
+
+.navbar li {
+    display: inline-flex;
+    list-style-type: none;
+    color: white;
+    margin: 25px;
+}
+
+
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
+
 
